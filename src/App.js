@@ -26,7 +26,7 @@ addTodo = (todo) => {
   render() {
     return (
       <div className="todo-app container">
-        <h1 className="center blue-text">Todos</h1>
+        <h1 className="center blue-text">Todo List</h1>
         <Todos todos={this.state.todos} deleteTodo ={this.deleteTodo}/>
         <AddTodo addTodo={this.addTodo}/>
       </div>
